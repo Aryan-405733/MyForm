@@ -1,6 +1,6 @@
 body{
    margin:0;
-   padding:10px;
+   padding:20px;
    font-family: motserrat;
     background: #f2f2f2;
     height:200vh;
@@ -26,7 +26,7 @@ body{
     border-radius: 30px;
     border-top: 100px,solid rgb(0, 0, 155);
     box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
-    width:clamp(350px,80%,600px);
+    width:clamp(320px,80%,600px);
 } 
 #submit1{
     height: 40px;
