@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=stylesheet href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <form id="form">
+        <h1 id="title">ENTER YOUR DETAILS</h1>
+        <div>
+            <i class="fa fa-user"></i>
+            
+            <input type="text" id="fname" name="fname" class="field1" placeholder="First Name"><br>
+        </div><br>
+        <span>
+            <i class="fa fa-user"></i>
+            <input type="text" id="fname" name="fname" class="field1" placeholder="Last Name"><br>
+        </span>
+        <p id="Gender">Gender</p>
+        <div>
+            <input type="radio" id="male" name="gender" value="Male" class="field1">
+            <label for="male" class="field">Male</label>
+        </div>
+        <div>
+            <input type="radio" id="female" name="gender" value="Female" class="field1">
+            <label for="female" class="field">FEMALE</label>
+        </div><br>
+        <div>
+            <label for="city" class="field">City:</label>
+            <input type="text" id="city" name="city" class="field1" placeholder="City"><br>
+        </div><br>
+        <div>
+            <i class="fa fa-envelope email"></i>
+            <label for="email" class="field">EMAIL:</label>
+            <input type="text" id="email" name="email" class="field1" placeholder="Email">
+        </div><br>
+
+        <div>
+            <label for="LANGUAGE" class="field">CHOOSE A LANGAUGE:</label>
+            <select name="LANGAUGE" id="LANGUAGE" class="field1">
+                <option disabled selected value="">none</option>
+                <option value="HINDI">hindi</option>
+                <option value="ENGLISH">english</option>
+                <option value="PUNJABI">punjabi</option>
+                <option value="DOGRI">dogri</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="DEGREE" class="field">CHOOSE DEGREE:</label>
+            <select name="DEGREE" id="DEGREE" class="field1">
+                <option disabled selected value="">none</option>
+                <option value="B.TECH">B.TECH</option>
+                <option value="IT">IT</option>
+                <option value="B.E">B.E</option>
+                <option value="M.TECH">M.TECH</option>
+            </select>
+        </div><br>
+
+        <input type="submit" id="submit1" value="submit">
+
+        <script src="1index.js"></script>
+
+    </form>
+</body>
+
+</html>
